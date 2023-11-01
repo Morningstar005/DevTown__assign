@@ -1,8 +1,21 @@
-# React + Vite
+# React + Vite Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a web application built with React and Vite. Vite is a fast development build tool that leverages native ES module imports to achieve blazing-fast cold and hot module replacement (HMR) in development.
 
-Currently, two official plugins are available:
+## Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Before you begin, ensure you have the following installed on your system:
+
+- [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/)
+
+## Getting Started
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone <REPOSITORY_URL>
+   cd <REPOSITORY_DIRECTORY>
+   npm install
+   npm run dev
+
+   The above command starts the development server. Open your browser and visit http://localhost:3000 to see the app in action.
